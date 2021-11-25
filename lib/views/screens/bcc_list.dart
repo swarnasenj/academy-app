@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../Style/color.dart';
+import 'auth/component/navbar.dart';
 
 class BccList extends StatefulWidget {
   const BccList({Key? key}) : super(key: key);
@@ -10,6 +11,7 @@ class BccList extends StatefulWidget {
 }
 
 class _BccListState extends State<BccList> {
+   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -141,9 +143,12 @@ class _BccListState extends State<BccList> {
                   trailing:
                       Icon(Icons.arrow_forward, color: Color(0xffFFFEFD))),
             ),
+            
           ],
         ),
       ),
+      bottomNavigationBar: Navbar(''),
+
     );
   }
 }

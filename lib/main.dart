@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'views/screens/bcc_list.dart';
+import 'views/screens/add_coach.dart';
+
 
 
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       
-      home: const BccList(),
+      home: const AddCoach(),
       
     );
   }

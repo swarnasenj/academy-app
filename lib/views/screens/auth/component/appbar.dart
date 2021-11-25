@@ -33,7 +33,7 @@ class Appbar extends StatelessWidget {
           ),
         ),
         const SizedBox(
-          width: 150,
+          width: 180,
         ),
         Container(
           height: 30,

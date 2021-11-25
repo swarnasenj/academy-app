@@ -6,4 +6,5 @@ final Color button = HexColor('#FFFFFF');
 final Color textform = HexColor('#1F212A');
 final Color text = HexColor('#FFFEFD');
 final Color appbarcolor = HexColor('#1F212A');
+//final Color lebel = HexColor('#D2D3D4');
 final Color bg = HexColor('#16171D');

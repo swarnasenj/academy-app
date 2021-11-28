@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'views/screens/add_coach.dart';
+import 'views/screens/auth/add_batch.dart';
 
 
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       
-      home: const AddCoach(),
+      home: const AddBatch(),
       
     );
   }
